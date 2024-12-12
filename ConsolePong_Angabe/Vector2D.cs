@@ -50,6 +50,8 @@ namespace ConsolePong
             */
 
             // TODO A_3
+
+            return new Vector2D();
         }
 
         // ToString Mehtode zum testen der Addition + allgemeines testen empfohlen
