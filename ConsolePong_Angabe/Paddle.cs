@@ -26,7 +26,7 @@ namespace ConsolePong
         */
 
         public Vector2D Position { get { return positionNew; } }
-        public int Size => throw new NotImplementedException("Die Property 'Size' wurde noch nicht in Paddle implementiert"); // TODO A_1
+        public int Size {  get { return size; } }
 
         // Konstruktor:
         public Paddle (char character, int size, ConsoleColor color, Vector2D position, int speed, Vector2D fieldSize)
