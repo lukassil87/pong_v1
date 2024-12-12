@@ -32,6 +32,7 @@ namespace ConsolePong
             */
 
             // TODO A_2
+            X = x; Y = y;
         }
 
         // Überladung des Plus-Operators
@@ -49,7 +50,6 @@ namespace ConsolePong
             */
 
             // TODO A_3
-            return new Vector2D(v1.X + v2.X, v1.Y+v2.Y);
         }
 
         // ToString Mehtode zum testen der Addition + allgemeines testen empfohlen
